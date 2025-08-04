@@ -223,8 +223,7 @@ local function autoBuyMagnetCrate()
         purchaseEvent:FireServer()  
         wait(purchaseCooldown)  
     end  
-end,
-})
+end
 
 local JournalSection = MainTab:CreateSection(" Journal")
 
